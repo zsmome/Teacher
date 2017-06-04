@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.zsmome.screen2.RegistActivity">
+    <LinearLayout
+        style="@style/regist_ll">
+        <!--<ImageView-->
+            <!--android:layout_width="@dimen/size_regist_linearlayout_width"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:src="@mipmap/ic_launcher"/>-->
+        <EditText
+            android:id="@+id/login_name_et"
+            style="@style/edit_username"
+            android:hint="用户名"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/regist_ll">
+        <EditText
+            android:id="@+id/login_password_et"
+            style="@style/edit_password"
+            android:hint="密码"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:onClick="loginButton"
+        style="@style/word_bt"/>
+</LinearLayout>

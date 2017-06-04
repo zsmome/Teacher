@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--基础网址-->
+    <string name="url_base">http://www.1688wan.com</string>
+    <!--
+    礼包列表
+        取值说明：从1开始
+    -->
+    <string name="url_libao">http://www.1688wan.com/majax.action?method=getGiftList&#038;pageno=</string>
+    <!--
+    列表祥情
+        取值说明：是礼包列表list数组中的id
+    -->
+    <string name="url_libao_info">http://www.1688wan.com/majax.action?method=getGiftInfo&#038;id=</string>
+    <!--
+    开服－开服
+        取值说明：无
+    -->
+    <string name="url_kaifu_kaifu">http://www.1688wan.com/majax.action?method=getJtkaifu</string>
+    <!--
+    开服－开测
+        取值说明：无
+    -->
+    <string name="url_kaifu_kaice">http://www.1688wan.com/majax.action?method=getWebfutureTest</string>
+    <!--
+    开服－详情
+        取值说明：是开服-开服和开服-开测接口中的gid
+    -->
+    <string name="url_kaifu_info">http://www.1688wan.com/majax.action?method=getAppInfo&#038;id=</string>
+    <!--
+    特色-暴打星期三
+        取值说明：method:固定值(bdxqs)
+        取值说明：pageNo:从0开始
+    -->
+    <string name="url_tese_bdxqs">http://www.1688wan.com/majax.action?method=bdxqs&#038;pageNo=</string>
+    <!--
+    特色-新游周刊
+        取值说明：method:固定值(getWeekll)
+        取值说明：pageNo:从0开始
+    -->
+    <string name="url_tese_xyzk">http://www.1688wan.com/majax.action?method=getWeekll&#038;pageNo=</string>
+    <!--
+    暴打星期三-详情
+    -->
+    <string name="url_bdxqs_info">http://www.1688wan.com/majax.action?method=bdxqschild&#038;id=</string>
+    <!--
+    新游周刊-详情
+    -->
+    <string name="url_xyzk_info">http://www.1688wan.com/majax.action?method=getWeekllChid&#038;id=</string>
+    <!--
+    搜索
+        功能说明：所有界面第一次进入会默认执行一次搜索，key=””
+    -->
+    <string name="url_search">http://www.1688wan.com/majax.action?method=searchGift&#038;key=</string>
+    <!--
+    热门
+        功能说明：所有界面第一次进入会默认执行一次搜索，key=””
+    -->
+    <string name="url_iconhot">http://www.1688wan.com//majax.action?method=hotpushForAndroid</string>
+
+</resources>

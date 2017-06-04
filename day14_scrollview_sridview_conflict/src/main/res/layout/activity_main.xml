@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zsmome.day14_scrollview_sridview_conflict.MainActivity">
+
+    <!--大布局-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--GridView-->
+        <com.zsmome.day14_scrollview_sridview_conflict.views.SolveConflictGridView
+            android:id="@+id/test_gv"
+            android:layout_weight="1"
+            android:numColumns="4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</ScrollView>

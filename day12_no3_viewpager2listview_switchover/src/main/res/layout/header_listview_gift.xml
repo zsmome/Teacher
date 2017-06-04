@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <!--注意：此处必须设置高度，不然显示不出来-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/gift_header_vp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </android.support.v4.view.ViewPager>
+    <!--添加原点指示器-->
+    <LinearLayout
+        android:id="@+id/gift_header_dotLl"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    </LinearLayout>
+</FrameLayout>

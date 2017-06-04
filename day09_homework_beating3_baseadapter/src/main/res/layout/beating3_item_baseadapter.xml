@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imgIv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="bottom"
+        android:background="#93000000"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            style="@style/name_Beating3_item_baseadapter"
+            android:text="志胜移动传媒有限公司"/>
+        <TextView
+            android:id="@+id/timeTv"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            style="@style/time_Beating3_item_baseadapter"
+            android:text="2014-4-14"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SlidingPaneLayout
+    android:id="@+id/slidingpane"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/menu_background"
+    tools:context="com.zsmome.giftgagelves.MainActivity">
+    <!--侧滑页面-->
+    <RelativeLayout
+        android:id="@+id/slidingpane_ll"
+        android:layout_width="200dp"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+    <!--主页面-->
+    <RelativeLayout
+        android:id="@+id/body_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+        <!--Fragment页面-->
+        <FrameLayout
+            android:id="@+id/content_fl"
+            android:layout_marginBottom="@dimen/size_nav_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+        <com.ashokvarma.bottomnavigation.BottomNavigationBar
+            android:id="@+id/bottom_nav"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_nav_bottom">
+        </com.ashokvarma.bottomnavigation.BottomNavigationBar>
+        <!--分割线-->
+        <TextView
+            android:id="@+id/divider_Tv"
+            android:layout_above="@id/bottom_nav"
+            android:background="@drawable/divider_tv_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <!--底部导航-->
+    </RelativeLayout>
+</android.support.v4.widget.SlidingPaneLayout>

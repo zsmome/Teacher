@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:padding="5dp"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!--图标-->
+    <ImageView
+        android:id="@+id/kaice_lv_icon_iv"
+        android:layout_width="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="match_parent"
+        android:padding="5dp" />
+    <!--标题-->
+    <TextView
+        android:id="@+id/kaice_lv_title_tv"
+        android:layout_toRightOf="@id/kaice_lv_icon_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+         style="@style/kaifu_elv_title_tv"
+        android:text="坦克火线"/>
+    <!--运营商-->
+    <TextView
+        android:id="@+id/kaice_lv_operator_tv"
+        android:layout_toRightOf="@id/kaice_lv_icon_iv"
+        android:layout_below="@id/kaice_lv_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="运营商：英鹏互娱"/>
+    <!--查看按钮-->
+    <Button
+        android:id="@+id/kaice_lv_cat_bt"
+        android:focusable="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/kaice_lv_operator_tv"
+        style="@style/listview_button"
+        android:text="查看"/>
+    <!--时间-->
+    <TextView
+        android:id="@+id/kaice_lv_date_tv"
+        android:layout_toRightOf="@id/kaice_lv_icon_iv"
+        android:layout_below="@id/kaice_lv_operator_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        style="@style/kaifu_elv_date_tv"
+        android:text="今天 10:00"/>
+</RelativeLayout>

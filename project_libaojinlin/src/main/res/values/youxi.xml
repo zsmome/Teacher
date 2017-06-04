@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--开服-->
+    <string-array name="youxi_fragment_title">
+        <item>开服</item>
+        <item>开测</item>
+    </string-array>
+</resources>

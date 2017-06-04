@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Day12_no4_ FragmentPager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Fragment中的文字-->
+    <string name="red_fragment_tv">红色</string>
+    <string name="green_fragment_tv">绿色</string>
+    <string name="blue_fragment_tv">蓝色</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/otherCiv"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/a2"/>
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/otherCiv"
+        android:layout_alignTop="@id/otherCiv"
+        android:paddingRight="30dp"
+        android:layout_marginTop="10dp"
+        android:text="MM-dd HH:mm:ss"/>
+    <TextView
+        android:id="@+id/otherTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/otherCiv"
+        android:layout_below="@id/timeTv"
+        android:layout_marginTop="5dp"
+        android:maxWidth="200dp"
+        android:paddingRight="20dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#917a0a"
+        android:textSize="20sp"
+        android:text="123sdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfdsfsdfsdfsdfsdf"/>
+</RelativeLayout>

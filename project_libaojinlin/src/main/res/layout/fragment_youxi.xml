@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zsmome.project_libaojinlin.fragments.youxi.YouxiFragment">
+    <!--Fragment标题名-->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/youxi_title_tab"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorBackground"
+        app:tabTextColor="@color/colorTheme"
+        app:tabSelectedTextColor="@color/colorTheme"
+        app:tabIndicatorColor="@color/colorTheme"
+        app:tabTextAppearance="@style/TabLayoutTextStyle"/>
+    <!--分割线-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorTheme"/>
+    <!--开服Fragment-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/youxi_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

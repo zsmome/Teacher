@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="10dp"
+    android:background="@color/colorBackground">
+    <!--图标-->
+    <ImageView
+        android:id="@+id/iconhot_lv_icon_iv"
+        android:layout_width="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="match_parent" />
+    <!--标题-->
+    <TextView
+        android:id="@+id/iconhot_lv_title_tv"
+        android:layout_toRightOf="@id/iconhot_lv_icon_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        style="@style/kaifu_elv_title_tv"
+        android:text=" 火影忍者"/>
+    <!--运营商-->
+    <TextView
+        android:id="@+id/iconhot_lv_type_tv"
+        android:layout_toRightOf="@id/iconhot_lv_icon_iv"
+        android:layout_below="@id/iconhot_lv_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="类型：动作格斗"/>
+    <!--查看按钮-->
+    <TextView
+        android:id="@+id/iconhot_lv_player_number_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/iconhot_lv_type_tv"
+        android:layout_marginRight="10dp"
+        android:text="13640人在玩"/>
+    <!--时间-->
+    <TextView
+        android:id="@+id/iconhot_lv_size_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        style="@style/kaifu_elv_operator_tv"
+        android:text="大小:342"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/iconhot_lv_icon_iv" />
+</RelativeLayout>

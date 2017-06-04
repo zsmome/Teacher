@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zsmome.giftgagelves.fragments.LibaoFragment">
+    <!--上方条-->
+    <RelativeLayout
+        android:id="@+id/nav_top"
+        style="@style/NavTopBase">
+        <ImageView
+            android:id="@+id/nav_top_left_icon"
+            style="@style/NavTopLeftIcon"
+            android:onClick="openSlidingPane"/>
+        <Button
+            android:id="@+id/nav_top_right_button"
+            style="@style/NavTopRightButton"
+            android:text="搜索"
+            android:onClick="search" />
+        <TextView
+        android:layout_toRightOf="@id/nav_top_left_icon"
+        android:layout_toLeftOf="@id/nav_top_right_button"
+            style="@style/NavTopMidTitle"
+            android:text="@string/text_title_libao"/>
+    </RelativeLayout>
+    <!--ListView列表-->
+    <ListView
+        android:id="@+id/listview_libao"
+        android:layout_below="@id/nav_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

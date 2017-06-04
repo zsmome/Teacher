@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/PullToRefreshListView" />
+            <option value="$PROJECT_DIR$/day15_no2_loadimage_threadandhandler" />
+            <option value="$PROJECT_DIR$/day15_splash_handle" />
+            <option value="$PROJECT_DIR$/day16_no1_zipbitmap" />
+            <option value="$PROJECT_DIR$/day16_no2_commonadapter" />
+            <option value="$PROJECT_DIR$/day17_history" />
+            <option value="$PROJECT_DIR$/day17_student_table" />
+            <option value="$PROJECT_DIR$/day19_contextmenu" />
+            <option value="$PROJECT_DIR$/day20_broadcast" />
+            <option value="$PROJECT_DIR$/day20_networkstate" />
+            <option value="$PROJECT_DIR$/day20_service_downfile" />
+            <option value="$PROJECT_DIR$/fanyiscreen" />
+            <option value="$PROJECT_DIR$/frame_litepal" />
+            <option value="$PROJECT_DIR$/giftgagelves" />
+            <option value="$PROJECT_DIR$/project_libaojinlin" />
+            <option value="$PROJECT_DIR$/screen" />
+            <option value="$PROJECT_DIR$/screen2" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zsmome.day12_no4_fragmentpager.MainActivity">
+    <!--ViewPager页面-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/rgb_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+    <RadioGroup
+        android:id="@+id/nav_rg"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/red_rb"
+            android:checked="true"
+            style="@style/NavBottom"
+            android:text="@string/red_fragment_tv"/>
+        <RadioButton
+            android:id="@+id/green_rb"
+            style="@style/NavBottom"
+            android:text="@string/green_fragment_tv"/>
+        <RadioButton
+            android:id="@+id/blue_rb"
+            style="@style/NavBottom"
+            android:text="@string/blue_fragment_tv"/>
+    </RadioGroup>
+</RelativeLayout>

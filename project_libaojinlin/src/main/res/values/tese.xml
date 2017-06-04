@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--开服-->
+    <string-array name="tese_fragment_title">
+        <item>暴打星期三</item>
+        <item>新游周刊</item>
+    </string-array>
+</resources>

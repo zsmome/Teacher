@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="size_button_words">50dp</dimen>
+    <dimen name="mb_height_56">56dp</dimen>
+</resources>

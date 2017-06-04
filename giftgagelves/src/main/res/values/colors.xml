@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--底部导航条选中和未选中时的颜色-->
+    <color name="colorNavUnSelect">#27ab69</color>
+    <color name="colorNavSelect">#ac3c3a</color>
+    <color name="colorNavBg">#c1bbbb</color>
+
+    <!--统一风格-->
+    <color name="colorTheme">#36C77B</color>
+</resources>

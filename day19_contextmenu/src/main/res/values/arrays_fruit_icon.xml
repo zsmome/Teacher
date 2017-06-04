@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_fruit_icon">
+        <item>@mipmap/a1</item>
+        <item>@mipmap/a2</item>
+        <item>@mipmap/a3</item>
+        <item>@mipmap/a4</item>
+        <item>@mipmap/a5</item>
+        <item>@mipmap/a6</item>
+        <item>@mipmap/a7</item>
+        <item>@mipmap/a8</item>
+        <item>@mipmap/a9</item>
+        <item>@mipmap/a10</item>
+    </string-array>
+</resources>

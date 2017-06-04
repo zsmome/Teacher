@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GiftGagElves</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_title_hot">热门</string>
+    <string name="text_title_libao">礼包精灵</string>
+    <string name="text_title_tese">特色</string>
+    <string name="text_title_youxi">开服</string>
+</resources>

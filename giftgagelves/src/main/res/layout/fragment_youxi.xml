@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zsmome.giftgagelves.fragments.YouxiFragment">
+    <!--上方条-->
+    <RelativeLayout
+        android:id="@+id/nav_top"
+        style="@style/NavTopBase">
+        <ImageView
+            android:id="@+id/nav_top_left_icon"
+            style="@style/NavTopLeftIcon"
+            android:onClick="openSlidingPane"/>
+        <TextView
+            android:layout_width="match_parent"
+            style="@style/NavTopMidTitle"
+            android:text="@string/text_title_youxi"/>
+    </RelativeLayout>
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_below="@id/nav_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开服页面" />
+
+</RelativeLayout>

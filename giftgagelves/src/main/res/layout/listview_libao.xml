@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/listview_rl">
+    <ImageView
+        android:id="@+id/listview_libao_icon"
+        style="@style/listview_icon"/>
+     <TextView
+         android:id="@+id/listview_libao_name"
+         android:layout_toRightOf="@id/listview_libao_icon"
+         style="@style/listview_1"
+         android:text="星际联盟"/>
+    <TextView
+        android:id="@+id/listview_libao_teqian"
+        android:layout_toRightOf="@id/listview_libao_icon"
+        android:layout_below="@id/listview_libao_name"
+        style="@style/listview_2"
+        android:text="特权礼包"/>
+    <Button
+        android:id="@+id/listview_libao_bt"
+        android:layout_below="@id/listview_libao_name"
+        style="@style/listview_button"
+        android:layout_alignBaseline="@id/listview_libao_teqian"
+        android:text="立即领取"/>
+    <TextView
+        android:id="@+id/listview_libao_remain"
+        android:layout_toRightOf="@id/listview_libao_icon"
+        android:layout_below="@id/listview_libao_teqian"
+        android:layout_marginRight="10dp"
+        style="@style/listview_4"
+        android:text="剩余：50"/>
+    <TextView
+        android:id="@+id/listview_libao_time"
+        android:layout_toRightOf="@id/listview_libao_remain"
+        android:layout_below="@id/listview_libao_teqian"
+        style="@style/listview_4"
+        android:text="时间：2017-4-14"/>
+</RelativeLayout>

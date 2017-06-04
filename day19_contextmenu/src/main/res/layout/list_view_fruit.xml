@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <!--图标-->
+    <ImageView
+        android:id="@+id/fruit_icon_iv"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:layout_toRightOf="@id/fruit_icon_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--内容-->
+        <TextView
+            android:id="@+id/fruit_content_tv"
+            style="@style/TextFruitListView"
+            android:text="苹果"/>
+        <!--日期-->
+        <TextView
+            android:id="@+id/fruit_date_tv"
+            style="@style/TextFruitListView"
+            android:text="17/5/20 10:31"/>
+    </LinearLayout>
+</RelativeLayout>

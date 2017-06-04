@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorNavUnSelect">#27ab69</color>
+    <color name="colorNavSelect">#ac3c3a</color>
+    <color name="colorNavBg">#c1bbbb</color>
+    <!--统一风格-->
+    <color name="colorBackground">#ffffff</color>
+    <!--开服-->
+    <color name="colorTheme">#36C77B</color>
+    <color name="colorYouxiFragmentTitle">#ab4627</color>
+    <!--特色-->
+    <color name="colorTeseBackground">#b1000000</color>
+</resources>

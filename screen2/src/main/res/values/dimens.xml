@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="size_button_words">50dp</dimen>
+    <dimen name="size_lock_padding_right">20dp</dimen>
+    <dimen name="size_fanyi_tv_height">140dp</dimen>
+    <dimen name="size_reghist_et_width">200dp</dimen>
+    <dimen name="size_regist_linearlayout_width">40dp</dimen>
+    <dimen name="size_regist_ll_margin">20dp</dimen>
+</resources>

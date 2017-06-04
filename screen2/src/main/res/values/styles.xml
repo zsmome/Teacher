@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <!--<item name="android:windowIsFloating">true</item>-->
+        <!--<item name="android:windowFrame">@null</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:background">@android:color/transparent</item>-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:backgroundDimEnabled">false</item>-->
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+    </style>
+    <!--翻译-->
+    <style name="ThemeFanyi" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!--基本文字-->
+    <style name="text_base">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorHint">#ffffff</item>
+    </style>
+    <!--登录-->
+    <style name="text_user_info" parent="text_base">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <!--翻译文字-->
+    <style name="text_fanyi" parent="text_base">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--提示-->
+    <style name="hint_tv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <!--输入框-->
+    <style name="input_tv">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">start</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorHint">#c24949</item>
+    </style>
+    <!--基本输入-->
+    <style name="edit_base" parent="input_tv">
+        <item name="android:textColorHint">#c2aaaa</item>
+        <item name="android:layout_width">@dimen/size_reghist_et_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawableLeft">@mipmap/username</item>
+    </style>
+    <!--用户名-->
+    <style name="edit_username" parent="edit_base">
+        <item name="android:drawableLeft">@mipmap/username</item>
+    </style>
+    <!--密码-->
+    <style name="edit_password" parent="edit_base">
+        <item name="android:drawableLeft">@mipmap/password</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+    <!--字母按钮-->
+    <style name="word_bt">
+        <item name="android:layout_width">@dimen/size_button_words</item>
+        <item name="android:layout_height">@dimen/size_button_words</item>
+        <item name="android:background">@drawable/button_words</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <!--注册的ll-->
+    <style name="regist_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size_regist_linearlayout_width</item>
+        <item name="android:layout_marginTop">@dimen/size_regist_ll_margin</item>
+        <item name="android:layout_marginBottom">@dimen/size_regist_ll_margin</item>
+    </style>
+</resources>

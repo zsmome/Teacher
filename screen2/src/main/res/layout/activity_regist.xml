@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.zsmome.screen2.RegistActivity">
+    <LinearLayout
+        style="@style/regist_ll">
+        <EditText
+            android:id="@+id/regist_name_et"
+            style="@style/edit_username"
+            android:hint="用户名"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/regist_ll">
+        <EditText
+            android:id="@+id/regist_password_et"
+            style="@style/edit_password"
+            android:hint="密码"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/regist_ll">
+        <EditText
+            android:id="@+id/regist_confirm_password_et"
+            style="@style/edit_password"
+            android:hint="确认密码"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:onClick="registButton"
+        style="@style/word_bt"/>
+</LinearLayout>

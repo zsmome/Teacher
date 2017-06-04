@@ -1,0 +1,12 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zsmome.project_libaojinlin.fragments.youxi.Youxi_KaiFfu_Fragment">
+    <!--开服分组列表-->
+    <ExpandableListView
+        android:id="@+id/youxi_kaifu_elv"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

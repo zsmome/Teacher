@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.zsmome.screen2.FanYiActivity">
+    <!--标题-->
+    <TextView
+        android:id="@+id/fanyi_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/text_base"
+        android:background="@color/colorTitleBackground"
+        android:text="翻译"/>
+    <!--输入内容-->
+    <EditText
+        android:id="@+id/fanyi_input_et"
+        android:layout_below="@id/fanyi_title"
+        android:layout_width="match_parent"
+         android:gravity="top|left"
+        android:layout_height="@dimen/size_fanyi_tv_height"
+        android:padding="30dp"
+        style="@style/text_fanyi"
+        android:hint="写入你要翻译的文字!"/>
+    <!--翻译按钮-->
+    <Button
+        android:id="@+id/fanyi_button_bt"
+        android:layout_below="@id/fanyi_input_et"
+        android:layout_centerHorizontal="true"
+        style="@style/word_bt"
+        android:background="@drawable/button_words"
+        android:onClick="fanyiButton"
+        android:text="译"/>
+    <!--翻译内容, 可以滚动-->
+    <ScrollView
+        android:id="@+id/fanyi_tran_tv_sv"
+        android:layout_below="@id/fanyi_button_bt"
+        android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+        android:layout_height="@dimen/size_fanyi_tv_height">
+        <TextView
+            android:id="@+id/fanyi_tran_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|left"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            style="@style/text_fanyi" />
+    </ScrollView>
+</RelativeLayout>

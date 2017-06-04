@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PullToRefreshListView/PullToRefreshListView.iml" filepath="$PROJECT_DIR$/PullToRefreshListView/PullToRefreshListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teacher.iml" filepath="$PROJECT_DIR$/Teacher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15_no2_loadimage_threadandhandler/day15_no2_loadimage_threadandhandler.iml" filepath="$PROJECT_DIR$/day15_no2_loadimage_threadandhandler/day15_no2_loadimage_threadandhandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15_splash_handle/day15_splash_handle.iml" filepath="$PROJECT_DIR$/day15_splash_handle/day15_splash_handle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16_no1_zipbitmap/day16_no1_zipbitmap.iml" filepath="$PROJECT_DIR$/day16_no1_zipbitmap/day16_no1_zipbitmap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16_no2_commonadapter/day16_no2_commonadapter.iml" filepath="$PROJECT_DIR$/day16_no2_commonadapter/day16_no2_commonadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17_history/day17_history.iml" filepath="$PROJECT_DIR$/day17_history/day17_history.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17_student_table/day17_student_table.iml" filepath="$PROJECT_DIR$/day17_student_table/day17_student_table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day19_contextmenu/day19_contextmenu.iml" filepath="$PROJECT_DIR$/day19_contextmenu/day19_contextmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20_broadcast/day20_broadcast.iml" filepath="$PROJECT_DIR$/day20_broadcast/day20_broadcast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20_networkstate/day20_networkstate.iml" filepath="$PROJECT_DIR$/day20_networkstate/day20_networkstate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20_service_downfile/day20_service_downfile.iml" filepath="$PROJECT_DIR$/day20_service_downfile/day20_service_downfile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fanyiscreen/fanyiscreen.iml" filepath="$PROJECT_DIR$/fanyiscreen/fanyiscreen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frame_litepal/frame_litepal.iml" filepath="$PROJECT_DIR$/frame_litepal/frame_litepal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/giftgagelves/giftgagelves.iml" filepath="$PROJECT_DIR$/giftgagelves/giftgagelves.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_libaojinlin/project_libaojinlin.iml" filepath="$PROJECT_DIR$/project_libaojinlin/project_libaojinlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screen/screen.iml" filepath="$PROJECT_DIR$/screen/screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screen2/screen2.iml" filepath="$PROJECT_DIR$/screen2/screen2.iml" />
+    </modules>
+  </component>
+</project>

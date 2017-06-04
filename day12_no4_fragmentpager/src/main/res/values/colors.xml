@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--fragment背景色-->
+    <color name="colorRedFragment">#991c29</color>
+    <color name="colorGreenFragment">#1c9950</color>
+    <color name="colorBlueFragment">#1c4699</color>
+</resources>

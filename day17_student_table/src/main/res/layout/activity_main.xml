@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zsmome.day17_student_table.MainActivity">
+    <!--姓名-->
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="姓名"/>
+    <!--年龄-->
+    <EditText
+        android:id="@+id/age_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="年龄"/>
+    <!--性别-->
+    <RadioGroup
+        android:id="@+id/sex_rg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/male_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"/>
+        <RadioButton
+            android:id="@+id/female_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"/>
+    </RadioGroup>
+    <!--地址-->
+    <EditText
+        android:id="@+id/add_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--添加按钮-->
+    <Button
+        android:id="@+id/submit_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addStudentInfo"
+        android:text="添加信息"/>
+    <!--学生信息列表-->
+    <ListView
+        android:id="@+id/student_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>

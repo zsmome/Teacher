@@ -1,0 +1,36 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.iconhot.IconhotFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!--精品推荐-->
+        <TextView
+            android:id="@+id/iconhot_boutique_tv"
+            style="@style/iconhot_text"
+            android:text="精品推荐"/>
+        <com.zsmome.project_libaojinlin.views.SolveConfictListView
+            android:id="@+id/iconhot_boutique_lv"
+            android:layout_below="@id/iconhot_boutique_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.zsmome.project_libaojinlin.views.SolveConfictListView>
+    <!--热门推荐-->
+        <TextView
+            android:id="@+id/iconhot_hot_tv"
+            android:layout_below="@id/iconhot_boutique_lv"
+            style="@style/iconhot_text"
+            android:text="热门推荐"/>
+        <com.zsmome.project_libaojinlin.views.SolveConfictGridView
+            android:id="@+id/iconhot_hot_gv"
+            android:layout_below="@id/iconhot_hot_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3">
+
+        </com.zsmome.project_libaojinlin.views.SolveConfictGridView>
+    </RelativeLayout>
+</ScrollView>

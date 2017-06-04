@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.zsmome.fanyiscreen"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="internalOnly">
+    <!--连网权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--按键权限-->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <!--开机自动启动-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <application
+        android:name="com.zsmome.fanyiscreen.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name="com.zsmome.fanyiscreen.MainActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zsmome.fanyiscreen.LockActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/Transparent"/>
+
+        <service android:name="com.zsmome.fanyiscreen.services.LockService">
+            <intent-filter>
+                <action android:name="LOCK_SERVICE"/>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.zsmome.fanyiscreen.services.AutoStartService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

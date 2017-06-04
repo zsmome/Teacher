@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bookIv"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#ac3a3a"/>
+    <TextView
+        android:id="@+id/bookTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/bookIv"
+        android:text="123"/>
+</RelativeLayout>

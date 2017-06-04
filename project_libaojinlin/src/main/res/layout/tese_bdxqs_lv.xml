@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--分隔-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <!--主内容-->
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="20dp"
+        android:background="@color/colorBackground"
+        xmlns:tools="http://schemas.android.com/tools">
+        <ImageView
+            android:id="@+id/tese_bdxqs_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#2b333b"
+            android:src="@mipmap/tese"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorTeseBackground">
+            <TextView
+                android:id="@+id/tese_bdxqs_title_tv"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="18sp"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorBackground"
+                android:textStyle="bold"
+                tools:text="独立游戏一片天"/>
+            <TextView
+                android:id="@+id/tese_bdxqs_date_tv"
+                android:layout_below="@id/tese_bdxqs_title_tv"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="16sp"
+                android:paddingTop="6dp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBackground"
+                tools:text="2017-4-24"/>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

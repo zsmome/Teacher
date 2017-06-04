@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="10dp"
+    android:background="@color/colorBackground">
+    <ImageView
+        android:id="@+id/iconhot_gv_iv"
+         android:layout_marginLeft="30dp"
+         android:layout_marginRight="30dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/iconhot"/>
+    <TextView
+        android:id="@+id/iconhot_gv_title_tv"
+        android:layout_below="@id/iconhot_gv_iv"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="部落冲突:皇室战争"/>
+</RelativeLayout>

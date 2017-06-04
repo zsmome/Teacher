@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--启动应用时的广告-->
+    <style name="SplashActivity">
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">3 跳过广告 ></item>
+    </style>
+
+    <!--页面上方条-->
+    <style name="NavTopBase">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/colorTheme</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    <!--左边侧滑按钮-->
+    <style name="NavTopLeftIcon">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@mipmap/title_bar_menu</item>
+    </style>
+    <!--右边搜索按钮-->
+    <style name="NavTopRightButton">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!--中间标题-->
+    <style name="NavTopMidTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!--listview基本-->
+    <style name="listview_rl">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:descendantFocusability">blocksDescendants</item>
+    </style>
+    <style name="listview_icon">
+        <item name="android:layout_width">70dp</item>'
+        <item name="android:layout_height">match_parent</item>'
+        <item name="android:padding">5dp</item>'
+        <item name="android:src">@mipmap/ic_launcher</item>'
+    </style>
+    <style name="listview_1">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="listview_2">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="listview_3">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:color">#ffffff</item>
+    </style>
+    <style name="listview_4">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!--列表中的按钮-->
+    <style name="listview_button">
+        <item name="android:focusable">false</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+    <!--listview基本 结束-->
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zsmome.project_libaojinlin.SearchActivity">
+    <!--上方条-->
+    <RelativeLayout
+        android:id="@+id/libao_top"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/colorTheme"
+        android:layout_height="40dp">
+        <!--回退-->
+        <ImageView
+            android:id="@+id/libao_top_iv"
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/back"
+            android:onClick="back" />
+        <Button
+            android:id="@+id/libao_top_bt"
+            android:layout_alignParentRight="true"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:onClick="search"
+            android:text="搜索"/>
+        <EditText
+            android:id="@+id/libao_search_et"
+            android:layout_toRightOf="@id/libao_top_iv"
+            android:layout_toLeftOf="@id/libao_top_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColorHint="#d9d1d1"
+            android:hint="游戏名"/>
+    </RelativeLayout>
+    <ListView
+        android:layout_below="@id/libao_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</RelativeLayout>
